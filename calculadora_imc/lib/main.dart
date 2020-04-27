@@ -119,7 +119,7 @@ class _HomeState extends State<Home> {
                 controller: heightController,
                   validator: (value) {
                     if(value.isEmpty){
-                      return "Insira seu peso"; //check if exist or not any data
+                      return "Insira sua altura"; //check if exist or not any data
                     }
 
                   // ignore: missing_return
